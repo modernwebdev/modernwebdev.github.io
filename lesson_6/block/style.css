@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block {
+  width: 300px;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 20px 30px;
+  border: 2px solid gray;
+  background-color: white;
+}
