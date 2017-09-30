@@ -1,4 +1,4 @@
-# Наталья Чеботрева
+# Наталья Чеботарева
 [Урок 4](https://modernwebdev.github.io/lesson_4/) - Знакомство с основами HTML
 [Урок 5](https://modernwebdev.github.io/lesson_5/) - Знакомтсво с основами CSS
 [Урок 6](https://modernwebdev.github.io/lesson_6/block/) - Позиционирование в СSS. Блок
