@@ -1,0 +1,67 @@
+h1, h2, h3 {
+text-align: center;
+}
+ul {
+  padding: 20px;
+  border: 2px solid black;
+  background-color: silver;
+}
+li {
+  padding: 10px;
+}
+h3 span {
+  color: red;
+}
+.bold {
+font-weight: 700;
+}
+.italic {
+  font-style: italic;
+}
+.underline {
+  text-decoration: underline;
+}
+.new,
+.second {
+  color: red;
+}
+.second {
+  text-align: center;
+}
+#design {
+  background-color: green;
+  border: 7px dotted orange;
+  color: red;
+}
+.red {
+  float: right;
+  width: 400px;
+  border: 10px solid red;
+}
+.clearfix::after {
+  content:"";
+  display: table;
+  clear: both;
+}
+.orange {
+  border: 10px solid orange;
+}
+.yellow {
+  border: 10px solid yellow;
+}
+.green {
+  border: 10px solid green;
+}
+.blue {
+  border: 10px solid blue;
+}
+.blue p {
+  margin:  0;
+  background-color: #9400d3;
+  text-align: right;
+  font-style: italic;
+}
+.block {
+  background-color: red;
+  position: fixed;
+}
