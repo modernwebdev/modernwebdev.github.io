@@ -5,5 +5,6 @@
 [Урок 6](https://modernwebdev.github.io/lesson_6/menu/) - Позиционирование в СSS. Меню  
 [Урок 7](https://modernwebdev.github.io/lesson_7/src/) - Верстка первого макета  
 [Урок 8](https://modernwebdev.github.io/lesson_8/project/src/) - Ускорение верстки в разы  
-[Урок 9](https://modernwebdev.github.io/lesson_9/src/) - Верстка при помощи Bootstrap 3
-[Урок 13](https://modernwebdev.github.io/lesson_13/src/) - Адаптивная верстка
+[Урок 9](https://modernwebdev.github.io/lesson_9/src/) - Верстка при помощи Bootstrap 3  
+[Урок 13](https://modernwebdev.github.io/lesson_13/src/) - Адаптивная верстка  
+[Практика 1](https://modernwebdev.github.io/practice_1/src/) - Практика. Часть 1
