@@ -1,0 +1,37 @@
+@btn: #f7ae01;
+@text: #292929;
+@white: #ffffff;
+
+body {
+	color: @text;
+}
+.button {
+	background-color: @btn;
+	border: none;
+	border-radius: 6px;
+	color: @white;
+	text-transform: uppercase;
+}
+.header {
+	height: 11rem;
+	padding: 2rem;
+	.phone-link {
+		line-height: 7rem;
+		color: @text;
+		font-weight: bold;
+		font-size: 2rem;
+	}
+	.wrap {
+		display: table;
+		height: 7rem;
+		width: 100%;
+		&-block {
+			display: table-cell;
+			vertical-align: middle;
+		}
+	}
+	&-button {
+		padding: 1.5rem 3rem;
+		font-size: 1.1rem;
+	}
+}

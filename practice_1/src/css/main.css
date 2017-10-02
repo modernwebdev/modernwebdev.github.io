@@ -1,0 +1,33 @@
+body {
+  color: #292929;
+}
+.button {
+  background-color: #f7ae01;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.header {
+  height: 11rem;
+  padding: 2rem;
+}
+.header .phone-link {
+  line-height: 7rem;
+  color: #292929;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.header .wrap {
+  display: table;
+  height: 7rem;
+  width: 100%;
+}
+.header .wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+}
+.header-button {
+  padding: 1.5rem 3rem;
+  font-size: 1.1rem;
+}
