@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans&subset=cyrillic');
+@import url(http://allfont.ru/allfont.css?fonts=bebas);
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Regular.eot');
+    src: url('../fonts/Lato-Regular.eot') format('embedded-opentype'),
+         url('../fonts/Lato-Regular.woff') format('woff'),
+         url('../fonts/Lato-Regular.ttf') format('truetype'),
+         url('../fonts/Lato-Regular.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+   }
+@font-face {
+		font-family: 'BebasRegular';
+		src: url('../fonts/BebasRegular.eot');
+		src: url('../fonts/BebasRegular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/BebasRegular.woff') format('woff'),
+		url('../fonts/BebasRegular.ttf') format('truetype');
+		font-style: normal;
+		font-weight: normal;
+}
+
+.text-box{
+	padding-top: 2rem;
+}
+.result {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.opensans {
+	font-family: 'Open Sans', sans-serif;
+}
+.lobster {
+	font-family: 'Lobster', sans-serif;
+}
+.lato {
+	font-family: 'Lato', sans-serif;
+	font-weight: 
+}
+.bebas {
+	font-family: 'BebasRegular', sans-serif;
+}
+.fonts {
+	font-size: 2rem;
+	text-align: center;
+	padding: 2rem;
+}
+small {
+	font-size: 1.3rem;
+}
