@@ -8,5 +8,6 @@
 [Урок 9](https://modernwebdev.github.io/lesson_9/src/) - Верстка при помощи Bootstrap 3  
 [Урок 13](https://modernwebdev.github.io/lesson_13/src/) - Адаптивная верстка  
 [Практика 1](https://modernwebdev.github.io/practice_1/src/) - Практика. Часть 1  
-[Урок 14](https://modernwebdev.github.io/lesson_14/) - Подключение шрифтов
-[Практика 2](https://modernwebdev.github.io/practice_2/src/) - Практика. Часть 2 
+[Урок 14](https://modernwebdev.github.io/lesson_14/) - Подключение шрифтов  
+[Практика 2](https://modernwebdev.github.io/practice_2/src/) - Практика. Часть 2  
+[Урок 15](https://modernwebdev.github.io/lesson_15/) - Подключение шрифтов  
