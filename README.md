@@ -1,6 +1,6 @@
 # Наталья Чеботарева  
 [Урок 4](https://modernwebdev.github.io/lesson_4/) - Знакомство с основами HTML  
-[Урок 5](https://modernwebdev.github.io/lesson_5/) - Знакомтсво с основами CSS  
+[Урок 5](https://modernwebdev.github.io/lesson_5/) - Знакомство с основами CSS  
 [Урок 6](https://modernwebdev.github.io/lesson_6/block/) - Позиционирование в СSS. Блок  
 [Урок 6](https://modernwebdev.github.io/lesson_6/menu/) - Позиционирование в СSS. Меню  
 [Урок 7](https://modernwebdev.github.io/lesson_7/src/) - Верстка первого макета  
@@ -11,3 +11,4 @@
 [Урок 14](https://modernwebdev.github.io/lesson_14/) - Подключение шрифтов  
 [Практика 2](https://modernwebdev.github.io/practice_2/src/) - Практика. Часть 2  
 [Урок 15](https://modernwebdev.github.io/lesson_15/) - Подключение шрифтов  
+[Практика 3](https://modernwebdev.github.io/practice_3/src/) - Практика. Часть 3 
