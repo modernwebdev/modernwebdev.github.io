@@ -12,4 +12,5 @@
 [Практика 2](https://modernwebdev.github.io/practice_2/src/) - Практика. Часть 2  
 [Урок 15](https://modernwebdev.github.io/lesson_15/) - Подключение шрифтов  
 [Практика 3](https://modernwebdev.github.io/practice_3/src/) - Практика. Часть 3  
-[Урок 16](https://modernwebdev.github.io/lesson_16/src/) - Слайдер на сайте 
+[Урок 16](https://modernwebdev.github.io/lesson_16/src/) - Слайдер на сайте  
+[Практика 4](https://modernwebdev.github.io/practice_4/src/) - Практика. Часть 4 
