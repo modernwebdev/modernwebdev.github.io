@@ -14,4 +14,9 @@
 [Практика 3](https://modernwebdev.github.io/practice_3/src/) - Практика. Часть 3  
 [Урок 16](https://modernwebdev.github.io/lesson_16/src/) - Слайдер на сайте  
 [Практика 4](https://modernwebdev.github.io/practice_4/src/) - Практика. Часть 4  
-[Урок 17](https://modernwebdev.github.io/lesson_17/src/) - Всплывающие окна
+[Урок 17](https://modernwebdev.github.io/lesson_17/src/) - Всплывающие окна  
+[Практика 5](https://modernwebdev.github.io/practice_5/src/) - Практика. Часть 5   
+[Урок 18](https://modernwebdev.github.io/lesson_18/tabs/src/) - Табы  
+[Урок 18](https://modernwebdev.github.io/lesson_18/accordion/src/) - Аккордеон  
+[Практика 6](https://modernwebdev.github.io/practice_6/src/) - Практика. Часть 6  
+
