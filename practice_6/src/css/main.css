@@ -1,0 +1,408 @@
+@font-face {
+  font-family: 'ProximaNovaBold';
+  src: url('../fonts/ProximaNovaBold.eot');
+  src: url('../fonts/ProximaNovaBold.eot') format('embedded-opentype'), url('../fonts/ProximaNovaBold.woff2') format('woff2'), url('../fonts/ProximaNovaBold.woff') format('woff'), url('../fonts/ProximaNovaBold.ttf') format('truetype'), url('../fonts/ProximaNovaBold.svg#ProximaNovaBold') format('svg');
+}
+@font-face {
+  font-family: 'ProximaNovaRegular';
+  src: url('../fonts/ProximaNovaRegular.eot');
+  src: url('../fonts/ProximaNovaRegular.eot') format('embedded-opentype'), url('../fonts/ProximaNovaRegular.woff2') format('woff2'), url('../fonts/ProximaNovaRegular.woff') format('woff'), url('../fonts/ProximaNovaRegular.ttf') format('truetype'), url('../fonts/ProximaNovaRegular.svg#ProximaNovaRegular') format('svg');
+}
+/* settings */
+body {
+  color: #292929;
+  font-family: 'ProximaNovaRegular', sans-serif;
+}
+.button {
+  background-color: #f7ae01;
+  border: none;
+  border-radius: 6px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.button:hover {
+  cursor: pointer;
+  background-color: #de9c01;
+}
+button:focus,
+a:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+section h2 {
+  text-align: center;
+  font-family: 'ProximaNovaBold', sans-serif;
+  font-size: 3rem;
+  margin: 8rem auto;
+  margin-top: 0;
+}
+section .heading-white {
+  color: #ffffff;
+}
+section .heading-p {
+  margin-bottom: 4rem;
+}
+section .p-heading {
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+section .p-heading-white {
+  color: #ffffff;
+}
+section h3 {
+  font-size: 2rem;
+  font-family: 'ProximaNovaBold', sans-serif;
+}
+/* main */
+main {
+  background: url('../img/main-bg.jpg') center center;
+  background-size: cover;
+}
+.header {
+  height: 11rem;
+  padding: 2rem;
+}
+.header .phone-link {
+  line-height: 7rem;
+  color: #292929;
+  font-size: 2rem;
+  text-decoration: none;
+  font-family: 'ProximaNovaBold', sans-serif;
+}
+.header .phone-link:hover {
+  text-decoration: none;
+}
+.header .wrap {
+  display: table;
+  height: 7rem;
+  width: 100%;
+}
+.header .wrap-block {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: right;
+}
+.header-button {
+  width: 100%;
+  padding: 1.5rem 3rem;
+  font-size: 1.4rem;
+}
+.promo-title {
+  font-family: 'ProximaNovaBold', sans-serif;
+  margin-top: 6rem;
+  text-transform: uppercase;
+  font-size: 40px;
+  line-height: 58px;
+}
+.promo-p {
+  margin-top: 4rem;
+  font-size: 2.5rem;
+}
+.promo-price {
+  display: inline-block;
+  background-color: #49bf15;
+  font-size: 2rem;
+  color: #ffffff;
+  margin-top: 4rem;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+.promo-price strong {
+  font-family: 'ProximaNovaBold', sans-serif;
+  font-size: 3rem;
+}
+.promo-p2 {
+  margin-top: 3rem;
+  font-family: 'ProximaNovaBold', sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.form {
+  margin-top: 6rem;
+  background-color: #ffffff;
+  padding: 3rem;
+}
+.form label {
+  display: block;
+  position: absolute;
+  left: 50%;
+  text-align: center;
+  background-color: #ffffff;
+  -webkit-transform: translateX(-50%) translateY(50%);
+          transform: translateX(-50%) translateY(50%);
+  font-weight: 500;
+  padding: 0.5rem;
+}
+.form-title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 0;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  padding: 1.5rem;
+  margin-top: 3rem;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+.form-button {
+  width: 100%;
+  margin-top: 3rem;
+  padding: 2rem;
+  font-weight: bold;
+}
+.form-ps {
+  margin: 1rem;
+  text-align: center;
+}
+.form-ps:after {
+  content: "*";
+}
+.form-pps {
+  margin: 3rem;
+}
+section {
+  padding: 8rem 0;
+}
+/* features */
+.features-block {
+  text-align: center;
+}
+.features-block img {
+  display: block;
+  margin: 0 auto;
+  height: 6rem;
+}
+.features-block h3 {
+  margin: 4rem 0 2rem;
+}
+.features-block p {
+  display: inline-block;
+  width: 80%;
+  font-size: 1.4rem;
+}
+.features .slick-active {
+  outline: none;
+}
+.features .arrow {
+  position: absolute;
+  width: 2rem;
+  height: 2rem;
+  border: none;
+  z-index: 99;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-size: 80% !important;
+}
+.features .prev {
+  background: url('../img/left-arrow.svg') center no-repeat;
+  left: 0;
+}
+.features .next {
+  background: url('../img/right-arrow.svg') center no-repeat;
+  right: 0;
+}
+/* Секция с ценами */
+.prices {
+  background: url("../img/bg-prices.jpg");
+}
+.prices-block {
+  background-color: #ffffff;
+  padding: 4rem 3rem;
+  text-align: center;
+}
+.prices-block img {
+  max-width: 100%;
+}
+.prices-button {
+  padding: 1.5rem 4.5rem;
+}
+.prices-button-header {
+  padding: 1.5rem	2rem;
+}
+.prices-button-wrapper {
+  text-align: right;
+}
+.prices ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  min-height: 15rem;
+}
+.prices ul li {
+  line-height: 2.5rem;
+}
+.prices ul li:before {
+  content: '';
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-right: 1rem;
+  background: url(../img/checked.svg) no-repeat center;
+  background-size: 100%;
+  vertical-align: middle;
+}
+.prices h3 {
+  margin: 0;
+  margin-bottom: 3rem;
+  min-height: 5rem;
+}
+.prices span {
+  margin: 1.5rem;
+  display: block;
+  font-family: 'ProximaNovaBold', sans-serif;
+}
+.prices span strong {
+  font-size: 2rem;
+}
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.popup .form {
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.popup h4 {
+  font-family: 'ProximaNovaBold', sans-serif;
+}
+.popup p {
+  margin: 0;
+  padding: 0 3rem;
+}
+.popup-close {
+  position: absolute;
+  top: -1rem;
+  right: -2rem;
+  width: 2rem;
+  font-size: 3rem;
+  text-align: center;
+  border: none;
+  background: transparent;
+  color: #ffffff;
+}
+.popup-content {
+  position: fixed;
+  text-align: center;
+  max-width: 35rem;
+  left: 50%;
+  top: 10%;
+  background-color: #ffffff;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  padding: 2rem;
+}
+.popup textarea {
+  resize: none;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .phone {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  main {
+    background-position: center right;
+  }
+  .promo-title,
+  .promo-p,
+  .promo-price,
+  .promo-p2 {
+    text-align: center;
+  }
+  .promo-price {
+    display: block !important;
+    margin: 0 auto;
+    width: 300px;
+    margin-top: 3rem;
+  }
+  .prices-block {
+    margin-bottom: 2rem;
+  }
+  .prices-button {
+    margin-top: 4rem;
+  }
+  .prices-button-wrapper {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .prices h3,
+  .prices ul {
+    min-height: auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  main {
+    background-position: center left;
+  }
+  main .promo-title {
+    font-size: 2.3rem;
+    line-height: 3rem;
+  }
+  main .promo-title,
+  main .promo-p,
+  main .promo-p2 {
+    text-align: center;
+  }
+  main .promo-price {
+    display: block;
+    margin: 0 auto;
+    width: 25rem;
+  }
+  main .promo-title,
+  main .promo-p,
+  main .promo-p2,
+  main .promo-price,
+  main .promo form {
+    margin-top: 3rem;
+  }
+  main .promo .form-pps {
+    font-size: 1.2rem;
+  }
+  main .header {
+    padding: 0;
+  }
+  main .header .phone {
+    padding: 0;
+    padding-left: 2rem;
+  }
+  main .header .phone-link {
+    font-size: 1.5rem;
+  }
+  main .header-xs {
+    background-color: #ffffff;
+  }
+  main .header-button-hidden {
+    padding: 1rem;
+  }
+  main .header .logo img {
+    display: block;
+    margin: 2rem auto 4rem;
+  }
+  .prices-block {
+    margin-bottom: 2rem;
+  }
+  .prices-button {
+    margin-top: 4rem;
+  }
+  .prices-button-wrapper {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  .prices h3,
+  .prices ul {
+    min-height: auto;
+  }
+}
