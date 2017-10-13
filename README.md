@@ -21,4 +21,5 @@
 [Практика 6](https://modernwebdev.github.io/practice_6/src/) - Практика. Часть 6  
 [Урок 19](https://modernwebdev.github.io/lesson_19/tabs/src/) - Анимация на CSS3  
 [Практика 7](https://modernwebdev.github.io/practice_7/src/) - Практика. Часть 7  
+[Урок 20](https://modernwebdev.github.io/lesson_20/src/) - Видео-фон на сайте  
 
