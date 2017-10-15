@@ -2,16 +2,21 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+iframe {
+  position: relative;
+}
 .map {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 430px;
 }
 .map .block {
   width: 38rem;
-  position: absolute;
   z-index: 99;
   height: inherit;
   background-color: #c60b0b;
-  margin-left: 20rem;
+  margin-left: 10rem;
   padding: 7rem;
   color: white;
   text-align: center;
@@ -24,7 +29,7 @@
   font-size: 1.7rem;
 }
 .footer {
-  padding: 2rem;
+  padding: 2rem 0;
   text-align: center;
   min-height: 9rem;
 }
@@ -52,16 +57,27 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
-.footer .phone {
-  font-size: 2rem;
-  font-weight: bold;
-  color: black;
-  text-align: right;
+.footer .cl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
+.footer .phone,
 .footer .bold {
   font-weight: bold;
   color: black;
   text-align: right;
+}
+.footer .phone {
+  font-size: 2rem;
 }
 .footer .col1 {
   -webkit-box-pack: end;
