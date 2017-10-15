@@ -5,11 +5,12 @@
 	<title>Document</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/main.css">
-	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
 </head>
 <body>
+ <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A06323c1d5f3299d3e7b337cd4013e0c67719950ab55a777cf840d72e7c47d9d1&amp;lang=ru_RU&amp;scroll=true&amp;source=constructor" width="100%" height="430" frameborder="0"></iframe>
 	<section class="map" id="map">
-			<div class="block">
+		<div class="block">
 			<h1>Контакты</h1>
 			<p>г.Москва, Варшавское шоссе, дом 16, корпус 1, офис №8</p>
 			<p>200 от м. Театральная</p>
@@ -20,13 +21,12 @@
 	<section class="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
+				<div class="col-md-4 cl">
 					<img src="img/logo.png" alt="">
 					<p class="p-logo">
-							Технологии<br>Пожарной<br>Безопасности
-</p>
+							Технологии<br>Пожарной<br>Безопасности</p>
 				</div>
-				<div class="col-md-4 col"><div class="col2">Сертификация пожарной безопасности<br>Работаем по России и странам СНГ</div></div>
+				<div class="col-md-4 col">Сертификация пожарной безопасности<br>Работаем по России и странам СНГ</div>
 				<div class="col-md-4 col col1">
 					<p class="phone">+7 (499) 409-87-25</p>
 					<p class="bold">г.Москва, Варшавское шоссе, дом 16, корпус 1, офис №8</p>
@@ -35,40 +35,5 @@
 		</div>
 	</section>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script>
-    ymaps.ready(function () {
-        var myMap = new ymaps.Map('map', {
-                center: [55.69319706, 37.62076709],
-                zoom: 17
-            }, {
-                searchControlProvider: 'yandex#search'
-            }),
-            // Создаём макет содержимого.
-            MyIconContentLayout = ymaps.templateLayoutFactory.createClass(
-                '<div style="color: #FFFFFF; font-weight: bold;">$[properties.iconContent]</div>'
-            ),
-            myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
-                hintContent: 'Варшавское шоссе, дом 16',
-                balloonContent: 'Варшавское шоссе, дом 16'
-            }, {
-                // Опции.
-                // Необходимо указать данный тип макета.
-                iconLayout: 'default#image',
-                // Своё изображение иконки метки.
-                iconImageHref: 'img/location.png',
-                // Размеры метки.
-                iconImageSize: [40, 60],
-                // Смещение левого верхнего угла иконки относительно
-                // её "ножки" (точки привязки).
-                iconImageOffset: [-25, -50]
-            });
-            myMap.behaviors.disable('scrollZoom'); 
-            myMap.geoObjects
-                    .add(myPlacemark)
-                    .add(myPlacemarkWithContent);
-        });
-  </script>
-  
-
 </body>
 </html>
