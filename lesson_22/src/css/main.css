@@ -1,0 +1,70 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.map {
+  height: 430px;
+}
+.map .block {
+  width: 38rem;
+  position: absolute;
+  z-index: 99;
+  height: inherit;
+  background-color: #c60b0b;
+  margin-left: 20rem;
+  padding: 7rem;
+  color: white;
+  text-align: center;
+}
+.map .block .mail {
+  text-decoration: underline;
+}
+.map .block p {
+  margin: 2.5rem 0;
+  font-size: 1.7rem;
+}
+.footer {
+  padding: 2rem;
+  text-align: center;
+  min-height: 9rem;
+}
+.footer .p-logo {
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-align: left;
+  padding: 1rem;
+}
+.footer .col-md-4 {
+  height: 9rem;
+}
+.footer .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer .phone {
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+  text-align: right;
+}
+.footer .bold {
+  font-weight: bold;
+  color: black;
+  text-align: right;
+}
+.footer .col1 {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
