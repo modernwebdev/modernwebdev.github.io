@@ -343,6 +343,7 @@ section {
 }
 .all-inclusive {
   background-color: #f5f5f5;
+  padding-bottom: 0;
 }
 .all-inclusive .media {
   min-height: 15rem;
