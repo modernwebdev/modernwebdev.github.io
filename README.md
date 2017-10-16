@@ -23,9 +23,10 @@
 [Практика 7](https://modernwebdev.github.io/practice_7/src/) - Практика. Часть 7  
 [Урок 20](https://modernwebdev.github.io/lesson_20/src/) - Видео-фон на сайте  
 [Практика 8](https://modernwebdev.github.io/practice_8/src/) - Практика. Часть 8   
-[Урок 21](https://modernwebdev.github.io/lesson_21/) - Parallax эффект для сайта
-[Практика 9](https://modernwebdev.github.io/practice_9/src/) - Практика. Часть 9  
+[Урок 21](https://modernwebdev.github.io/lesson_21/) - Parallax эффект для сайта  
+[Практика 9](https://modernwebdev.github.io/practice_9/src/) - Практика. Часть 9   
 [Урок 22](https://modernwebdev.github.io/lesson_22/src/) - Гео-карты для сайта  
 [Практика 10](https://modernwebdev.github.io/practice_10/src/) - Практика. Часть 10  
+[Практика 11](https://modernwebdev.github.io/practice_11/src/) - Практика. Часть 11  
 
 
