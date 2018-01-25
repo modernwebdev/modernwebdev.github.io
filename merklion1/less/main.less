@@ -10,17 +10,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'ProEx';
-    src: url('../fonts/ProximaNovaExCn-Regular.eot');
-    src: url('../fonts/ProximaNovaExCn-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/ProximaNovaExCn-Regular.woff2') format('woff2'),
-        url('../fonts/ProximaNovaExCn-Regular.woff') format('woff'),
-        url('../fonts/ProximaNovaExCn-Regular.ttf') format('truetype'),
-        url('../fonts/ProximaNovaExCn-Regular.svg#ProximaNovaExCn-Regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 
 
@@ -33,15 +22,17 @@
 @gold-shadow: rgba(249, 217, 163, 0.3);
 @line: rgba(255, 255, 255, 0.1);
 @projects-preview: #0e142a;
-@projects-block: #0f1d3a;
+@block: #0f1d3a;
 @font-black: #101114;
 @link: rgba(16, 17, 20, 0.6);
-@projects-preview-active: #0f1d3a;
+@block: #0f1d3a;
 @technology-block: #152b4b;
 @footer: #0f1428;
+@footer-xs: #0e1123;
+@label: #164a78;
 
 .Oswald() {
-    font-family: 'ProEx';
+    font-family: 'Oswald';
 }
 input {
     display: block;
@@ -56,7 +47,7 @@ input {
     }
 }
 .label {
-   color: @font;
+   color: @label;
    font-weight: normal; 
    font-size: 1.6rem;
    padding: 0;
@@ -83,23 +74,22 @@ h1, h2, h3, h5 {
     color: #fff;
 }
 h1 {
-    font-size: 10rem;
-    line-height: 9rem;
+    font-size: 8rem;
+    line-height: 8rem;
     margin-bottom: 3rem;
     margin-top: 18rem;
 }
 h2 {
-    font-size: 6.8rem;
+    font-size: 5.6rem;
     margin-bottom: 6rem;
     &:before {
         content: '';
         display: block;
         width: 4.8rem;
-        height: 4.8rem;
-        transform: rotate(45deg);
+        height: 17rem;
+        background: url(../img/pre-heading.png) no-repeat center;
         margin: 0 auto;
-        margin-bottom: 2rem;
-        border: 4px solid #d9bd95;
+        margin-bottom: 4rem;
     }
 }
 h3 {
@@ -119,7 +109,12 @@ p {
     margin: 0;
 }
 section {
-    padding: 9rem;
+    padding: 9rem 0;
+    position: relative;
+}
+.img-bg {
+    position: absolute;
+    max-width: 100%;
 }
 input, button {
     outline: none;
@@ -136,7 +131,6 @@ ul {
     margin: 0 auto;
     background-color: transparent;
     color: @gold;
-    font-weight: bold;
 }
 a {
   &:hover {
@@ -150,7 +144,7 @@ a {
 
 
 .main {
-    padding: 6rem 0 38rem 0;
+    padding: 6rem 0 25rem 0;
     .heading-p {
         margin-bottom: 8.2rem;
         font-size: 2.8rem;
@@ -188,6 +182,12 @@ a {
 }
 
 .projects {
+    &-bg {
+        top: 50%;
+        transform: translateY(-50%);
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .slider-for {
         margin: 0 -4.5rem;
     }
@@ -197,17 +197,18 @@ a {
         }
         .slick-current {
             .projects-preview {
-                background-color: @projects-preview-active;
+                background-color: @block;
                 transform: scale(0.95);
             }
         }
     }
     &-block {
-        padding: 8.5rem 10rem 9rem 5rem;
-        background-color: @projects-block;
+        padding: 8.5rem 8rem 8.5rem 8rem;
+        background-color: @block;
         margin: 3rem 5.5rem;
         position: relative;
         &-right {
+            margin-left: 5rem;
             h3 {
                 margin: 0;
             }
@@ -230,11 +231,13 @@ a {
             line-height: 4.2rem;
         }
         .num {
-            font-size: 5rem;
+            font-size: 4rem;
+            color: #feffff;
+            opacity: 0.6;
         }
         .sum {
             margin-top: 1rem;
-            font-size: 9rem;
+            font-size: 6.8rem;
             color: #ffffff;
             margin-bottom: 2rem;
             line-height: 8rem;
@@ -295,6 +298,14 @@ a {
 }
 
 .technology {
+    &-bg-1 {
+        right: 0;
+        top: 0;
+    }
+    &-bg-2 {
+        left: 0;
+        top: 0;
+    }
     .row {
         margin-bottom: 6rem;
     }
@@ -303,6 +314,7 @@ a {
         min-height: 11rem;
     }
     &-description {
+        cursor: pointer;
         h4 {
             margin-bottom: 1rem;
         }
@@ -354,7 +366,8 @@ a {
 }
 .order {
     .price {
-        font-size: 6.8rem;
+        margin-top: 8rem;
+        font-size: 5.6rem;
         color: @gold;
         .Oswald;
         margin-bottom: 2.5rem;
@@ -362,17 +375,21 @@ a {
     .label {
         line-height: 2.7rem;
         font-size: 1.8rem;
+        color: @font;
     }
     form {
+        h5 {
+            margin-bottom: 4rem;
+        }
         .button {
             margin-top: 5rem;
-            padding: 2rem 7.5rem;
+            padding: 2rem 8rem;
         }
     }
 }
 .footer {
     background-color: @footer;
-    padding: 5rem;
+    padding: 5rem 0;
     input {
         display: inline-block;
         width: auto;
@@ -389,5 +406,221 @@ a {
     .heading {
         color: @font;
         margin-bottom: 1.5rem;
+        font-size: 1.8rem;
     }
+}
+
+
+@media (max-width: 1199px) {
+    .projects {
+        &-block {
+            padding: 5rem;
+            .label {
+                font-size: 1.3rem;
+            }
+            .sum {
+                font-size: 6rem;
+            }
+            .num {
+                font-size: 2.9rem;
+            }
+            &-description {
+                padding: 5rem 9.5rem;
+            }
+            &-right {
+                margin-left: 3rem;
+            }
+
+        }
+        .slider-for {
+            margin: 0;
+        }
+        .slider-nav {
+            margin: 0 4.4rem 0 4.1rem;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+    .team {
+        &-slider {
+            &-item {
+                padding: 1rem;
+            }
+        }
+    }
+    .footer {
+        p {
+            font-size: 1.4rem;
+        }
+        .heading {
+            font-size: 1.6rem;
+        }
+    }
+}
+@media (max-width: 991px) {
+    .projects {
+        &-block {
+            padding-top: 20rem;
+        }
+    }
+}
+@media (max-width: 767px)  {
+}
+@media (max-width: 575px) {
+    input {
+        &:placeholder {
+            font-size: 1.8rem;
+            opacity: 0.4;
+        }
+    }
+    section {
+        padding: 7rem 0;
+    }
+    h1 {
+        font-size: 2.8rem;
+        line-height: 3.6rem;
+        margin-top: 8.5rem;
+    }
+    h2 {
+        font-size: 2.8rem;
+        line-height: 3.6rem;
+        &:before {
+            content: '';
+            width: 4.8rem;
+            height: 4.8rem;
+            border: 4px solid @gold;
+            transform: rotate(45deg);
+            background: none;
+        }
+    }
+    .main {
+        padding-top: 3rem;
+        padding-bottom: 15rem;
+        .heading-p {
+            font-size: 1.6rem;
+            margin-bottom: 3rem;
+        }
+        .button {
+            margin-bottom: 0;
+        }
+    }
+    .nav {
+        span {
+            display: none;
+        }
+        .lang, .gold {
+            display: inline-block;
+        }
+        .lang {
+            margin-right: 0;
+        }
+        img {
+            margin: 0;
+        }
+    }
+    .projects {
+        .slider-nav {
+            display: none;
+        }
+        .slider-for {
+            margin-bottom: 0;
+        }
+        &-block {
+            padding: 0;
+            margin: 0;
+            background: none;
+            h3 {
+                font-size: 1.9rem;
+                line-height: 2.6rem;
+                margin-bottom: 2rem;
+            }
+            .label {
+                font-size: 1.3rem;
+            }
+            .num {
+                font-size: 2.7rem;
+                margin-bottom: 1.5rem;
+            }
+            &-description {
+                position: static;
+                margin-bottom: 2rem;
+                padding: 2.5rem 5.5rem;
+            }
+            &-right {
+                margin: 0;
+            }
+            &-left {
+                display: none;
+            }
+        }
+    }
+    .technology {
+        .row {
+            margin-bottom: 0;
+        }
+        &-block {
+            display: none;
+        }
+        &-description {
+            background-color: @block;
+            padding: 2.5rem 2rem;
+            margin-bottom: 3rem;
+        }
+    }
+    .slick-dots li button:before {
+        border: 1px solid #308ee3;
+        opacity: 0.4;
+        content: '';
+        width: 1.3rem;
+        height: 1.3rem;
+    }
+    .slick-dots li.slick-active button:before {
+        background-color: #308ee3;
+        opacity: 0.4;
+    }
+    .order {
+        .price, .label {
+            text-align: center;
+        }
+        .price {
+            margin-top: 0;
+            font-size: 2.6rem;
+        }
+        form {
+            margin-top: 5rem;
+        }
+    }
+    .footer {
+        background-color: @footer-xs;
+        p {
+            font-size: 1.6rem;
+            opacity: 0.3;
+        }
+        .heading {
+            font-size: 1.8rem;
+            opacity: 0.6;
+        }
+        a {
+            font-size: 1.8rem;
+            text-decoration: none;
+            margin-bottom: 3rem;
+            display: inline-block;
+        }
+        input {
+            display: block;
+            width: 100%;
+        }
+    }
+}
+
+
+.slick-dots li button:before {
+    border: 1px solid #308ee3;
+    opacity: 0.4;
+    content: '';
+}
+.slick-dots li.slick-active button:before {
+    background-color: #308ee3;
+    opacity: 0.4;
 }
